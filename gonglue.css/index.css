@@ -1,0 +1,922 @@
+.container{
+    width:1000px;
+    margin:0 auto;
+}
+
+.top-banner{
+    height: 55px;
+    background-color:#fff;
+    width: 100%;
+    width: 1200px;
+    margin:auto;
+}
+.top-banner-img{
+    padding-left: 70px;
+    float:left;
+    margin-top:8px;
+    vertical-align:middle;
+    margin-right:30px;
+}
+.Rlogo{
+    float:left;
+    line-height: 55px;
+
+}
+.Rlogo .line{
+    border: 1px solid #a83b3b;
+    margin-top: 20px;
+    height: 15px;
+}
+.Rlogo li{
+    float:left;
+    margin-right:25px;
+}
+.Rlogo a{
+    font-family: "Microsoft YaHei UI";
+    font-size:18px;
+    color:#a83b3b;
+    /*font-weight: bold;*/
+}
+.wx{
+    margin-top: 10px;
+    float: left;
+    margin-left: 20px;
+    position: relative;
+}
+.wx>p{
+    float: right;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #a83b3b;
+    font-family: "Microsoft YaHei UI";
+}
+.wx-hover{
+    display: none;
+    width: 135px;
+    height: 185px;
+    padding: 0 9px;
+    position: absolute;
+    top:35px;
+    left: 0;
+    background: #fff;
+    z-index: 99;
+    float: right;
+
+}
+.wx:hover .wx-hover{
+    display: block;
+}
+.saoMa{
+    background: url("../gonglue.images/qrcode_wx.jpg")no-repeat left center;
+    width: 134px;
+    height: 133px;
+    margin-bottom: 2px;
+    background-size: 120px;
+
+}
+.wx-hover p{
+    text-align: center;
+    font-family: "Microsoft YaHei UI";
+}
+.wx-hover p.pink {
+    color: #bd465a;
+}
+
+
+/*___________________________________*/
+
+.topbox{
+    height: 845px;
+    width: 100%;
+    background: url("../gonglue.images/bg.jpg") no-repeat center top;
+    padding-top: 26px;
+}
+.toplogo{
+    height: 330px;
+
+}
+.toplogo .toplogoT{
+
+    text-align: center;
+    width: 100%;
+    height: 150px;
+}
+
+.toplogo .toplogoB{
+    margin-top: 86px;
+    text-align: center;
+    width: 100%;
+    height: 180px;
+}
+
+.topcontent{
+    width: 100%;
+    height: 495px;
+}
+
+.topcontent .nav1{
+    height: 55px;
+    width: 100%;
+    border-bottom: 1px solid #e2dbfa;
+    background-color:#b8a3d7;
+}
+.nav1 li{
+    width: 142px;
+    float: left;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    padding: 0 26px;
+
+}
+.nav1 li:last-child{
+    float: right;
+}
+.nav1 li a{
+
+    height: 55px;
+
+    color: #6d5689;
+    font-size: 18px;
+}
+.nav1 li:hover{
+    background-color: #7C4F91;
+
+}
+.nav1 li:hover a{
+    color: #ffffff;
+}
+
+.nav2{
+    height: 81px;
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 18px;
+    background-color: #B8A3D7;
+}
+.nav2 .nav2T span{
+    display:inline-block;
+    width: 88px;
+    height: 26px;
+    font-size: 14px;
+    color: #7c4f91;
+    text-align: center;
+    background:url("../gonglue.images/tab_bg.png") no-repeat 0 -3px;
+    float: left;
+
+}
+.nav2 .nav2T:last-child{
+    margin-top: 7px;
+}
+.nav2 .nav2T ul{
+    float: left;
+}
+.nav2 .nav2T li{
+    margin-left: 37px;
+    float: left;
+}
+
+.nav2 .nav2T li a{
+    height: 26px;
+    line-height: 26px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.nav2 .nav2T li a:hover{
+    color: #6d5689;
+    text-decoration: underline;
+}
+
+.lunbo{
+    width: 100%;
+    height: 360px;
+}
+
+.lunbo .lunbol{
+    width: 620px;
+    height: 360px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.lunbo .lunbol ul{
+    float: left;
+    width: 700%;
+    position: absolute;
+}
+.lunbo .lunbol ul li{
+    float: left;
+    position: relative;
+}
+.lunbo .lunbol ul li .slide {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 620px;
+    height: 42px;
+    line-height: 42px;
+    padding-left: 18px;
+    padding-right: 18px;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 10;
+}
+.lunbo .lunbol ul li .slide p{
+    float: left;
+    font-size: 12px;
+    color: #ffffff;
+}
+.lunbo .lunbol ul li .slide .num1{
+    font-size: 12px;
+    color: #ffffff;
+    float: right;
+}
+
+
+.lunbol .prev,.lunbol .next{
+    width: 38px;
+    height: 57px;
+    position: absolute;
+    top: 50%;
+    margin-top: -29px;
+    display:none;
+
+}
+.lunbol:hover .prev{
+    display: block;
+}
+.lunbol:hover .next{
+    display: block;
+}
+
+.lunbo .prev{
+    left:0;
+    background: url("../gonglue.images/prev.png") no-repeat;
+}
+.lunbo .next{
+    right:0;
+    background: url("../gonglue.images/next.png") no-repeat;
+}
+
+
+.lunbo .lunbor{
+    width: 380px;
+    height: 360px;
+    float: right;
+}
+.lunbo .lunbor .lunborT{
+    height: 112px;
+    width: 100%;
+    background: #f9f5fe;
+    padding-left: 22px;
+    padding-top: 22px;
+}
+
+.lunbo .lunbor .lunborT img{
+    display: block;
+    width: 128px;
+    height: 78px;
+    float: left;
+}
+.lunbo .lunbor .lunborT .banzhan{
+    width: 198px;;
+    float: left;
+    margin-left:9px;
+}
+
+.lunbo .lunbor .lunborT .banzhan a{
+    display: block;
+    font-size: 20px;
+    color: #7c4f91;
+    margin-bottom: 12px;
+}
+
+.lunbo .lunbor .lunborT .banzhan p{
+    font-size: 12px;
+    color: #464646;
+    height: 36px;
+    line-height: 18px;
+    overflow: hidden;
+}
+
+.lunbo .lunbor .lunborB{
+    padding-top: 18px;
+    padding-left: 22px;
+    padding-right: 24px;
+    background: #fff;
+}
+
+.lunbo .lunbor .lunborB li{
+    width: 338px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+.lunbo .lunbor .lunborB li a{
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    overflow: hidden;
+    color: #464646;
+
+}
+.lunbo .lunbor .lunborB li a:hover{
+    color: #f93b6e;
+}
+/*______________________________________*/
+.huodong{
+    width: 100%;
+    height: 65px;
+    padding-top: 22px;
+    padding-left: 18px;
+    border-top: 1px solid #e0edf1;
+    border-bottom: 1px solid #e0edf1;
+    background: #fff
+}
+
+.huodong span {
+    display: block;
+    float: left;
+    width: 48px;
+    height: 22px;
+    margin-right: 22px;
+    background: url(../gonglue.images/huodong.png) no-repeat;
+}
+
+.huodong a {
+    display: inline-block;
+    margin-top: 3px;
+    margin-right: 48px;
+    padding-left: 15px;
+    font-size: 14px;
+    color: #000;
+    background: url(../gonglue.images/blackdian.png) no-repeat left;
+}
+
+.huodong a:hover {
+    color: #f93b6e;
+    text-decoration: underline;
+    background: url(../gonglue.images/reddian.png) no-repeat left;
+}
+
+/*_________________________________*/
+
+.job{
+    width: 100%;
+    height: 360px;
+}
+
+.job .jobl{
+    width: 620px;
+    height: 360px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.job jobr{
+    width:380px;
+    height: 360px;
+    float: right;
+}
+.job .jobl li{
+
+}
+.job .jobl .jobTab{
+
+    width: 46px;
+    height: 51px;
+    position: absolute;
+    top: 30px;
+    right: 8px;
+    z-index: 4;
+
+}
+.job .jobl .jobTab a{
+width: 35px;
+height: 41px;
+color: #fff;
+text-align: center;
+line-height: 41px;
+display: block;
+background: url(../gonglue.images/jobtab1.png) no-repeat;
+margin-bottom: 8px;
+}
+
+.job .jobl .jobTab a:hover{
+    background:  url(../gonglue.images/jobtab2.png) no-repeat;
+}
+
+.job .jobr .stragety{
+    width: 379px;
+    height: 359px;
+    padding-top: 15px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 0;
+    border-left: 1px solid #e1c4ee;
+    overflow: hidden;
+    background: #f9f5fe;
+    float: left;
+    position: relative;
+}
+.job .jobr .straget .jobTitle{
+    border-bottom: 1px solid #6d5689;
+    overflow: hidden;
+
+    margin-bottom: 5px;
+}
+
+.stragety .jobTitle h2{
+    float: left;
+    font-size: 22px;
+    color: #6d5689;
+}
+.stragety .jobline{
+    width: 335px;
+    border-bottom: 1px solid #6d5689;
+    overflow: hidden;
+
+    padding-bottom: 5px;
+}
+.stragety .jobsmallimg{
+    padding-top: 8px;
+    width: 100%;
+}
+.stragety .jobimgl {
+    display: block;
+    width: 162px;
+    height: 107px;
+    float: left;
+}
+.stragety .jobimgr {
+    display: block;
+    width: 162px;
+    height: 107px;
+    float: right;
+
+}
+.stragety .joblist{
+    width: 335px;
+    height: 137px;
+    margin-top: 5px;
+}
+.stragety .joblist li{
+    padding-left: 16px;
+    position: relative;
+    margin-top: 3px;
+    border-bottom: 1px dotted #464646;
+    padding-bottom: 5px;
+}
+.stragety .joblist li b{
+    display: block;
+    width: 11px;
+    height: 13px;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    background: url(../gonglue.images/tit_icon.png) no-repeat;
+}
+.stragety .joblist li a{
+    color: #464646;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    width: 320px;
+    font-size: 12px;
+}
+.jobend a{
+    display: inline-block;
+    width: 76px;
+    height: 23px;
+    margin-right: 6px;
+    color: #fff;
+    line-height: 23px;
+    text-align: center;
+    background: #6d5689;
+    margin-top: 20px;
+}
+.jobend a:last-child{
+    margin-right: 0;
+}
+.jobend a:hover{
+    background: #b49ed6;
+}
+/*_______________________________*/
+
+.zhenling{
+    width: 99%;
+    height: 330px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 22px;
+    background: #fff;
+    border-bottom: 1px solid #efecf7;
+    position: relative;
+    overflow: hidden;
+
+}
+.zhenling .zltitle{
+    border-bottom: 1px solid #6d5689;
+    margin-bottom: 15px;
+}
+
+.zltitle h2{
+    font-size: 22px;
+    color: #6d5689;
+    float: left;
+    margin-right: 30px;
+}
+.zltitle ul li{
+    width: 38px;
+    margin-right: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 16px;
+    float: left;
+    cursor: pointer;
+}
+.more{
+    display: block;
+    width: 19px;
+    height: 19px;
+    background: url(../gonglue.images/more.png) no-repeat;
+    position: absolute;
+    right: 22px;
+    top: 32px;
+}
+ .more:hover{
+    transform: rotate(360deg);
+    transition: transform 0.8s ;
+}
+.zltitle ul li:first-child{
+    border-bottom: 3px solid #6d5689;
+}
+
+.zltitle ul li:hover{
+    border-bottom: 3px solid #6d5689;
+}
+
+.zltitle ul li .green{
+    color: green;
+
+}
+.zltitle ul li .blue{
+    color: blue;
+}
+.zltitle ul li .purple {
+    color: purple;
+}
+.zltitle ul li .orange{
+    color: orange;
+}
+
+.zlimg .greenlist a,.zlimg .bluelist a,.zlimg .purplelist a,.zlimg .orangelist a{
+    display: block;
+    float: left;
+    width: 145px;
+    height: 218px;
+    margin-right: 18px;
+    position: relative;
+    overflow: hidden;
+}
+
+.zlimg .greenlist a:last-child,.zlimg .bluelist a:last-child,.zlimg .purplelist a:last-child,.zlimg .orangelist a:last-child{
+    margin-right: 0;
+}
+
+.zlimg .mask{
+
+    width: 145px;
+    height: 218px;
+    position: absolute;
+    top: 218px;
+    left: 0px;
+}
+.zlimg .mask span{
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    z-index: 99999;
+    color: #fff;
+    font-size: 15px;
+}
+
+.greenlist,.bluelist,.purplelist,.orangelist{
+    display: none;
+    width: 2000px;
+    position: absolute;
+
+}
+.greenlist{
+
+    display: block;
+    position: absolute;
+
+}
+
+
+/*_________________________________*/
+.TST{
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.TST .task{
+    float: left;
+    width: 302px;
+    height: 274px;
+    padding-top: 24px;
+    padding-left: 20px;
+    padding-right: 22px;
+    margin-right: 47px;
+    background: #f9f5fe;
+    position: relative;
+}
+.TST .task:last-child{
+    margin-right: 0;
+}
+
+.TST .tasktlt{
+    width: 258px;
+    margin-bottom: 5px;
+}
+
+.tasktlt h2{
+    float: left;
+    font-size: 22px;
+    color: #6d5689;
+}
+
+.TST .tasktlt h2 span{
+    font-size: 12px;
+}
+
+.TST .taskline{
+    width: 100%;
+    border-bottom: 1px solid #6d5689;
+    overflow: hidden;
+
+    padding-bottom: 5px;
+}
+
+.TST .taskcon li{
+    padding-left: 16px;
+    position: relative;
+    margin-top: 5px;
+    border-bottom: 1px dotted #464646;
+    padding-bottom: 5px;
+}
+.taskcon li b{
+    display: block;
+    width: 11px;
+    height: 13px;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    background: url(../gonglue.images/tit_icon.png) no-repeat;
+}
+
+.taskcon li a{
+    width: 227px;
+    color: #464646;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+}
+.taskcon li a:hover{
+    color: #9c9458;
+}
+
+/*_____________________*/
+
+.new{
+    width: 1000px;
+    height:370px;
+    padding-left: 20px;
+    padding-top: 20px;
+    background: #fff;
+}
+.new1{
+    width: 1000px;
+    height: 144px;
+    border-bottom: 1px solid #efecf7;
+    margin-bottom: 22px;
+}
+ .new1 img{
+    display: inline-block;
+    width: 220px;
+    height: 124px;
+    float: left;
+}
+.new1r{
+    width: 710px;
+    float: right;
+    margin-left: 26px;
+}
+
+.new .new1r a{
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    float: left;
+}
+.new .new1r p{
+    margin-top: 28px;
+}
+
+.newimg:hover{
+    transform: rotateY(360deg);
+    transition: transform 0.5s;
+}
+/*_________________________*/
+.footer{
+    width:1200px;
+    height: 150px;
+    position: relative;
+  margin: auto;
+
+
+}
+/*.footer .wrap{*/
+    /*width:1200px;*/
+    /*height: 200px;*/
+/*}*/
+.footer .bottomlogo{
+    position: absolute;
+    top:26px;
+    width: 220px;
+    height: 37px;
+    background: url("../gonglue.images/wmlogo.png") no-repeat center center ;
+    padding-left: 45px;
+    padding-top: 10px;
+    border-right: 1px solid #c5c5c5;
+}
+
+.footer .beian{
+    position: absolute;
+    z-index: 102;
+    width: 67px;
+    height: 35px;
+    top: 26px;
+    border: 1px solid #3b3b3b;
+    padding-left: 45px;
+    padding-top: 10px;
+    font-size: 12px;
+    text-align: center;
+    left: 320px;
+    background: url("../gonglue.images/bgjingling.gif") no-repeat -78px -211px;
+    line-height: 14px;
+    color: #444;
+}
+.footer .company_in{
+    position: absolute;
+    left: 467px;
+    top:12px;
+    color: #444;
+    line-height: 20px;
+}
+.company_in ul li{
+    height: 20px;
+    float: left;
+    margin-right: 24px;
+}
+.company_in a{
+    color: #444;
+}
+.company_in a:hover{
+    color: #cc0000;
+}
+
+/*右侧浮动——————————————————————————————*/
+/*右侧浮动*/
+.rightbar {
+    position: fixed;
+    height: 555px;
+    width: 180px;
+    right: 0;
+    z-index: 99;
+    top: 50%;
+    margin-top: -280px;
+    background: #f9f5fe;
+}
+.down_tit{
+    width: 180px;
+    height: 34px;
+    line-height: 34px;
+    background: #2ac2a7;
+    text-align: center;
+}
+.down_tit h3{
+    color: #fff;
+    font-size: 16px;
+}
+.saoma{
+    width:162px;
+    height: 162px;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+.saoma img{
+    display: block;
+    width: 126px;
+    height: 126px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.saoma p{
+    font-size:14px;
+    font-weight: bold;
+    color:#6d5689;
+}
+.apple_box{
+    width: 161px;
+    height: 61px;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+.apple_box a{
+    display: block;
+    width: 161px;
+    height: 61px;
+    background: url(../gonglue.images/apple.jpg) no-repeat;
+}
+.android_box{
+    width: 161px;
+    height: 61px;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+.android_box a{
+    display: block;
+    width: 161px;
+    height: 61px;
+    background: url(../gonglue.images/android.jpg) no-repeat;
+}
+.enter{
+    width: 162px;
+    height: 63px;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+.enter a{
+    display: block;
+    width: 162px;
+    height: 63px;
+    background: url(../gonglue.images/enter.jpg) no-repeat;
+}
+.libao{
+    width: 162px;
+    height: 63px;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+.libao a{
+    display: block;
+    width: 162px;
+    height: 63px;
+    background: url(../gonglue.images/libao.jpg) no-repeat;
+}
+.rightbar .controls {
+    position: absolute;
+    height: 134px;
+    width: 29px;
+    top: 156px;
+    left: -29px;
+    background: url(../gonglue.images/slider_close.png) no-repeat;
+    cursor: pointer;
+}
+.rightbar .closed{background: url(../gonglue.images/slider_open.png) no-repeat;}
+
+.rt_top{
+    width: 180px;
+    height: 46px;
+    margin-top: 18px;
+}
+.rt_top .dingbu{
+    display: block;
+    width: 180px;
+    height: 46px;
+    font-size: 16px;
+    color: #ecf8f5;
+    line-height: 46px;
+    background: #2ac2a7;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hudie{
+    position: absolute;
+    left: 500px;
+    z-index: 999999;
+    width: 250px;
+}
+
+
+
+
